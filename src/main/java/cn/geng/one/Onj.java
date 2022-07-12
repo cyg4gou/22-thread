@@ -12,7 +12,7 @@ public class Onj extends Thread{
         Onj cyg = new Onj();
         cyg.start();
         while(cyg.isAlive()){
-//            num++;   不知道为啥不能够这样统计次数
+//            num++;   不知道为啥不能够这样统计次数,i can't understand
             System.out.println("thread of cyg is activing ... ");
         }
         System.out.println(num);
